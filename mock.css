@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+
+*  {
+    padding: 0px;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "poppins", sans-serif;
+}
+
+body {
+    background-color: black;
+    
+   
+
+}
+.carousel-inner {
+padding: center;
+white-space: nowrap;
+    width: 80%;  
+    height: 100vh;
+}
+.carousel-item{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+.carousel-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    padding: 0%;
+    margin: 0%;
+}
+.carousel-control-next-icon {
+    background-color: #000;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+}
+.position-relative {
+    position: relative;
+    width: 100%;
+    height: 100%;
+  
+}
+.card {
+
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+    color: blue;
+     border-radius: 10px;
+    height: auto;
+}
+.card-group {
+    padding-bottom: 20px;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: black;
+}
+.col{   
+    background-color: black;
+ 
+}
+.card text {
+    padding: 100%
+    color: white;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+}
+.container p {
+    padding: 100%;
+    color:black
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.footer {
+    margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #222;
+      color: #fff;
+      font-size: large;
+    }
+
+    .footer-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+
+    .footer-column {
+      flex: 1 1 200px;
+      margin: 20px;
+    }
+
+    .footer-column h4 {
+      margin-bottom: 15px;
+    }
+
+    .footer-column ul {
+      list-style: none;
+      padding: 0;
+    }
+
+    .footer-column ul li {
+      margin-bottom: 10px;
+    }
+
+    .footer-column ul li a {
+      color: #ccc;
+      text-decoration: none;
+    }
+
+    .footer-column ul li a:hover {
+      text-decoration: underline;
+      color: #fff;
+    }
+
+    .footer-bottom {
+      text-align: center;
+      padding: 15px 0;
+      border-top: 1px solid #444;
+      color: #aaa;
+      margin-top: 20px;
+    }
+
+    .social-icons a {
+      color: #ccc;
+      margin-right: 10px;
+      font-size: 18px;
+      text-decoration: none;
+    }
+
+    .social-icons a:hover {
+      color: #fff;
+    }
+  
