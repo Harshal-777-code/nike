@@ -11,15 +11,58 @@
 </head>
 
 <body>
-  <nav class="navbar bg-dark border-bottom border-body" data-bs-theme="dark">
-    <div class="container-fluid">
-      <a class="navbar-brand"><i>NIKE</i></a>
-      <form class="d-flex" role="search">
-        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
-        <button class="btn btn-outline-success" type="submit">Search</button>
+
+
+  <nav class="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
+    <div id="name" onclick="changeName()">Naykaa</div>
+    <script>
+      function changeName() {
+        const nameDiv = document.getElementById("name");
+        // nameDiv.textContent = nameDiv.textContent === "Naykaa" ? "क्यों नहीं?" : "Naykaa";
+         nameDiv.textContent = nameDiv.textContent === "Naykaa" ? "Whynot?" : "Naykaa";
+        nameDiv.style.color = nameDiv.textContent === "Naykaa" ? "aqua" :"violet";
+      }
+    </script>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#z">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="login page.html">Link</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="man.html">Men,s</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="women.html">Women's</a>
+        </li>
+        
+        
+
+        <!-- <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Shop
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="man.html">Men's shoes</a></li>
+            <li><a class="dropdown-item" href="women.html">Women's shoes</a></li>
+          </ul>
+        </li> -->
+      <form class="d-flex ms-5" role="search" >
+        <input class="form-control me-md-2" type="search" placeholder="Search" aria-label="Search"   style="margin-left:600px;"/>
+        <button class="btn btn-outline-success" type="submit" >Search</button>
       </form>
+      
+    </div>
     </div>
   </nav>
+  
+
 
 
 
@@ -51,11 +94,11 @@
 
   <div class="card">
     <div class="card-body">
-      <h5 class="card">It's not shose it's inspiration</h5>
-      <p class="card-text">If you're interested in stylish, fashion-forward footwear based in Italian design and
+      <h5 class="card"><b><u>It's not shose it's inspiration</h5>
+      <p class="card-text"><b><i>If you're interested in stylish, fashion-forward footwear based in Italian design and
         are comfortable ordering from an international platform, Nike Shoes might offer an attractive selection
         for you. However, if you prefer to shop from local stores or are looking for a more budget-friendly
-        option, you might want to explore other brands that offer similar styles at a lower price point.</p>
+        option, you might want to explore other brands that offer similar styles at a lower price point.</i></b></p>
       <p class="card-text"><small class="text-body-secondary">NIKE IS BEST BRAND IN THE WORLD</small></p>
     </div>
     <video src="video.mp4" class="card-img-bottom" alt="video" autoplay muted>
@@ -63,11 +106,11 @@
   </div>
 
 
-  <div class="card-group">
-    <div class="card">
+  <div class="card-group" id="z">
+    <div class="card" >
       <img src="imgi_14_nike-just-do-it.png" class="card-img-top" alt="shose" usemap="#map1">
       <map name="map1">
-        <area shape="circle" coords="148,139,20" href="https://www.nike.com/in/" alt="">
+        <area shape="circle" coords="148,139,20" href="index.html" alt="">
       </map>
       <div class="card-body">
         <h5 class="card-title">Air Force 1</h5>
@@ -79,7 +122,7 @@
     <div class="card">
       <img src="imgi_13_nike-just-do-it.png" class="card-img-top" alt="shose" usemap="#map1">
       <map name="map1">
-        <area shape="circle" coords="148,139,20" href="https://www.nike.com/in/" alt="">
+        <area shape="circle" coords="148,139,20" href="index.html" alt="">
       </map>
       <div class="card-body">
         <h5 class="card-title">Air jordan 1</h5>
@@ -92,7 +135,7 @@
     <div class="card">
       <img src="imgi_12_nike-just-do-it.png" class="card-img-top" alt="shose" usemap="#map1">
       <map name="map1">
-        <area shape="circle" coords="148,139,20" href="https://www.nike.com/in/" alt="">
+        <area shape="circle" coords="148,139,20" href="index.html" alt="">
       </map>
       <div class="card-body">
         <h5 class="card-title">Cortez</h5>
@@ -111,7 +154,7 @@
       <div class="card">
         <img src="X3.png" class="card-img-top" alt="...">
         <div class="card-body">
-          <a href="https://www.nike.com/in/" class="btn btn-primary">Go shop</a>
+          <a href="index.html" class="btn btn-primary">Go shop</a>
         </div>
       </div>
     </div>
@@ -119,7 +162,7 @@
       <div class="card">
         <img src="X2.png" class="card-img-top" alt="...">
         <div class="card-body">
-          <a href="https://www.nike.com/in/" class="btn btn-primary">Go shop</a>
+          <a href="index.html" class="btn btn-primary">Go shop</a>
         </div>
       </div>
     </div>
@@ -127,7 +170,7 @@
       <div class="card">
         <img src="x6.png" class="card-img-top" alt="...">
         <div class="card-body">
-          <a href="https://www.nike.com/in/" class="btn btn-primary">Go shop</a>
+          <a href="index.html" class="btn btn-primary">Go shop</a>
         </div>
       </div>
     </div>
@@ -136,7 +179,7 @@
         <img src="x5.jpg" class="card-img-top" alt="...">
         <div class="card-body">
 
-          <a href="https://www.nike.com/in/" class="btn btn-primary">Go shop</a>
+          <a href="index.html" class="btn btn-primary">Go shop</a>
         </div>
       </div>
     </div>
@@ -148,14 +191,44 @@
           <p>We are a team dedicated to delivering quality content and services to our users worldwide.</p>
         </div>
 
-        <div class="footer-column">
-          <h4>Quick Links</h4>
-          <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Services</a></li>
-            <li><a href="#">Blog</a></li>
-            <li><a href="#">Contact</a></li>
-          </ul>
+  
+<style>
+  .footer {
+    background-color: #222;
+    color: #fff;
+    padding: 30px 80px;
+    text-align: center;
+  }
+
+  .footer a {
+    color: #ccc;
+    text-decoration: none;
+    margin: 0 10px;
+  }
+
+  .footer a:hover {
+    color: #fff;
+  }
+
+  .footer p {
+    margin: 10px 0 0;
+    font-size: 14px;
+  }
+</style>
+
+<footer class="footer">
+  <div>
+    <a href="/">Home</a>
+    <a href="/features">Features</a>
+    <a href="/support">Support</a>
+    <a href="/terms">Terms</a>
+  </div>
+  <p>&copy; 2025 YourAppName. Built with ❤️</p>
+</footer>
+
+
+
+
         </div>
 
     </footer>
